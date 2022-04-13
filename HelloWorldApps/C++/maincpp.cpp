@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 int counter = 0;
 
 class student{
@@ -13,23 +14,25 @@ class student{
 };
 
 student::student(string name){
-    counter++;
-    cout << "ogrenci kaydi aliniyor" << endl;
+    cout << "ogrenci kaydi aliniyor..." << endl;
+
+    counter ++;
 
     this->name = name;
     id = counter;
 };
 
 void student::show(){
-    string msg = "ogrenci ismi: "; 
-    cout << "a";
-    cout << msg;
+    string msgName = "ogrenci ismi: "; 
+    string msgId = "ogrenci numarasi: ";
+    cout << msgName << name << endl << msgId << id << endl;
 };
 
 int main(){
     cout << "Hello World" <<endl;
+    cout << counter << endl;
 
-    student muffafa = student("Muhammed Mustafa");
+    student muffafa = student("Muhammed Mustafa Savar");
 
     muffafa.show();
     return 0;
