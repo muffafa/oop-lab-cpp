@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int counter = 0;
 
@@ -13,19 +14,23 @@ class student{
 
 student::student(string name){
     counter++;
-    cout << "Öğrenci Kaydı Alınıyor";
+    cout << "ogrenci kaydi aliniyor" << endl;
 
     this->name = name;
     id = counter;
 };
 
 void student::show(){
-    cout << name;
+    string msg = "ogrenci ismi: "; 
+    cout << "a";
+    cout << msg;
 };
 
 int main(){
-    cout << "Hello World";
+    cout << "Hello World" <<endl;
 
     student muffafa = student("Muhammed Mustafa");
+
+    muffafa.show();
     return 0;
 }
