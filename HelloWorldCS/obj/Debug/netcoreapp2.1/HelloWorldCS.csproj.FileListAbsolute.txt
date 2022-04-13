@@ -1,0 +1,11 @@
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\bin\Debug\netcoreapp2.1\HelloWorldCS.deps.json
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\bin\Debug\netcoreapp2.1\HelloWorldCS.runtimeconfig.json
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\bin\Debug\netcoreapp2.1\HelloWorldCS.runtimeconfig.dev.json
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\bin\Debug\netcoreapp2.1\HelloWorldCS.dll
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\bin\Debug\netcoreapp2.1\HelloWorldCS.pdb
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.csprojAssemblyReference.cache
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.csproj.CoreCompileInputs.cache
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.AssemblyInfoInputs.cache
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.AssemblyInfo.cs
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.dll
+C:\Users\bad_k\Desktop\oop-lab-cpp\HelloWorldCS\obj\Debug\netcoreapp2.1\HelloWorldCS.pdb
