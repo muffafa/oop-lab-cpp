@@ -34,6 +34,10 @@ int main(){
     for(int i=0; i<10; i++) cout << x.get(i);
     cout << endl;
     num.put(5, 10);
-    cout << num.get(5) << endl << x.get(5);
+    cout << num.get(5) << endl << x.get(5) <<endl;
+
+    for(int i=0; i<10; i++) cout << x.get(i);
+    cout << endl;
+    for(int i=0; i<10; i++) cout << num.get(i);
     return 0;
 }

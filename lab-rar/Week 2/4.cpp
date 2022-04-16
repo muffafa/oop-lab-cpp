@@ -29,7 +29,7 @@ strtype::~strtype(){// Free memory when destroying string object.
 }
 
 void strtype::set(char *ptr){
-	if(strlen(p) >= SIZE){
+	if(strlen(ptr) >= SIZE){
 		cout << "String too big\n";
 		return;
 	}

@@ -12,6 +12,8 @@ int main(){
     myclass o1, o2;
     o1.set(10, 4);  
     o2 = o1; // assign o1 to o2
+    o1.set(31,69);
+    o2.set(19,7);
     o1.show();
     o2.show();
     return 0;

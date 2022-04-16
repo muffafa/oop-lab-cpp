@@ -19,6 +19,7 @@ int main(){
     for (i = 0; i < 10; i++) { cout << "Product [" << i << "]: " << p[i].get() << endl; }
     
     delete [] p;
+    //delete p; //only first object that pointer points
     
     return 0;
 }

@@ -6,7 +6,7 @@ class car{
     public:
     car(int p, int s) { passengers = p; speed = s; }
     int sp_greater(truck t);
-};
+};-
 class truck{
     int weight, speed;
     public:

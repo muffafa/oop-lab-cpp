@@ -7,7 +7,7 @@ class myclass{
     ~myclass() { cout << "Destructing " << who << "\n"; }
     int id() { return who; }
 };
-// o is passed by value.
+// o is passed by refference.
 void f(myclass &o){cout << "Received " << o.id() << "\n";}
 
 int main(){

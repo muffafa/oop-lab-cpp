@@ -9,6 +9,7 @@ class stack{   // Declare a stack class for characters.
 	stack(); // constructor
 	void push(char ch); // push character on stack
 	char pop(); // pop character from stack
+	int showTos();
 };
 
 stack::stack(){// Initialize the stack.
@@ -33,13 +34,22 @@ char stack::pop(){// Pop a character
 	tos--;
 	return stck[tos];
 }
+
+int  stack::showTos(){
+	return tos;
+}
+
 int main(){
 	stack s1, s2;// Create two stacks that are automatically initialized.
 	int i;
 	s1.push('a'); s2.push('x');
 	s1.push('b'); s2.push('y');
 	s1.push('c'); s2.push('z');
-	for(i=0; i<3; i++) cout << "Pop s1: " << s1.pop() << "\n";
-	for(i=0; i<3; i++) cout << "Pop s2: " << s2.pop() << "\n";
+	
+	int s1Size = s1.showTos();
+	int s2Size = s2.showTos();
+
+	for(i=0; i<s1Size; i++) cout << "Pop s1: " << s1.pop() << "\n";
+	for(i=0; i<s2Size; i++) cout << "Pop s2: " << s2.pop() << "\n";
 	return 0;
 }

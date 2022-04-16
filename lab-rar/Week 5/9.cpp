@@ -10,7 +10,7 @@ int main(){
     double y = 10.09;
     cout << f(x) << endl; // unambiguous - use f(float)
     cout << f(y)<< endl; // unambiguous - use f(double)
-    cout << f(10) << endl;
-    //cout << f((float)10); // ambiguous , convert 10 to double or float??
+    //cout << f(10) << endl; //error 
+    cout << f((float)10); // ambiguous , convert 10 to double or float??
     return 0;
 }

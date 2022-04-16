@@ -1,7 +1,8 @@
 #include <iostream >
 #include <cstring >
 using namespace std;
-    class samp{
+
+class samp{
     char s[80];
     public:
     void show() { cout << s << "\n"; }
@@ -9,7 +10,7 @@ using namespace std;
 };
 // Return an object of type samp
 samp input(){
-char s[80];
+    char s[80];
     samp str;
     cout << "Enter a string: ";
     cin >> s; str.set(s);
