@@ -18,7 +18,7 @@ strtype::strtype(char *ptr){
     if(!p) exit(1); 
     strcpy(p, ptr);
 }
-strtype::~strtype(){ free(p);}
+strtype::~strtype(){cout<<p<<endl; free(p);}
 
 void strtype::show(){cout << p << " - length: " << len << endl;}
 
@@ -26,14 +26,11 @@ void strtype::printAddr(){ printf("%p\n", p);}
 
 int main(){
     strtype s1("This is a test."), s2("I like C++.");
-    s1.printAddr();
-    s2.printAddr();
     s1.show();
     s2.show();
-    s2 = s1;// assign s1 to s2 - - this generates an error
+    s2.~strtype();
+    s2 = s1;
     s1.show();
     s2.show();
-    s1.printAddr();
-    s2.printAddr();
     return 0;
 }

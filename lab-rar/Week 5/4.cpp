@@ -16,7 +16,7 @@ class myarray{
     int get(int i) { return p[i]; }
 };
 
-myarray::myarray(const myarray &a){ 
+myarray::myarray(const myarray &a){ //(num)
     p = new int[a.size]; // allocate memory for copy
     if(!p) exit(1);
     size = a.size;
@@ -31,6 +31,8 @@ int main(){
     cout << "\n"; 
 
     myarray x = num; // this invokes copy constructor
+    // myarray x;
+    // x(const num);
     for(int i=0; i<10; i++) cout << x.get(i);
     cout << endl;
     num.put(5, 10);
