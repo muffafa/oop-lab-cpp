@@ -84,7 +84,7 @@ int main()
 
     printSection();
 
-    
+    Point p4 = p3;// Copy constructor is called here
     //When an object is constructed based on another object of the same class. 
     return 0;
 }
